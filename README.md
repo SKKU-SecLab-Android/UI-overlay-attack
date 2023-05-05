@@ -39,7 +39,16 @@ We confirmed that UI overlay attack app build runs on a 64-bit Windows 11 system
 
 3. After granting accessibility permission to the UI overlay attack app and executing the camera, a higher z-order and a deceptive status bar appear at the top of the device.
 
+- The default target device currently set is Pixel 6, and if you want to perform a UI overlay attack on a different device, you need to modify the image source in the XML file located at the following path. (../app/src/main/res/layout/indicators_layout.xml)
 
-
-
-
+            <ImageView
+                android:id="@+id/iv_cam"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/pixel6"  <! -- Here is the replacable image source of deceptive status bar for other models, default is pixel6 -->
+                android:visibility="visible"
+                tools:ignore="UseAppTint" />
