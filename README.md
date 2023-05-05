@@ -10,7 +10,7 @@ UI overlay attack involves creating a higher z-order and deceptive status bar to
 
 ## Prerequisites
 
-We confirmed that UI overlay attack app build runs on a 64-bit Windows 11 system with the below versions.
+We confirmed that UI overlay attack app build runs on a 64-bit Windows 11 system with the below versions. (Deault target device : PIXEL6)
 
 * Android Studio Bumblebee 2021.1.1 Patch 2
 
@@ -28,3 +28,18 @@ We confirmed that UI overlay attack app build runs on a 64-bit Windows 11 system
   ```
   
 * To build the UI overlay attack app, simply import and run build project 'Privacy-Indicator-App-master' in Android Studio.
+
+<br>
+
+## How to use UI overlay attack app
+
+1. Build and install the UI overlay attack app on the target device.
+
+2. Launch the app and enable the function that leads you to consent to the Accessibility Service permission.
+
+3. After granting accessibility permission to the UI overlay attack app and executing the camera, a higher z-order and a deceptive status bar appear at the top of the device.
+
+
+
+
+
