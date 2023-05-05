@@ -8,14 +8,23 @@ UI overlay attack involves creating a higher z-order and deceptive status bar to
 ---
 <br>
 
-## Build environments
+## Prerequisites
 
-We confirmed that UI overlay attack app runs on a 64-bit Windows 11 system with the below versions.
+We confirmed that UI overlay attack app build runs on a 64-bit Windows 11 system with the below versions.
 
-- Android SDK version 30 (API 30: Android 11.0 (R))
+* Android Studio Bumblebee 2021.1.1 Patch 2
 
-- Build Tool Version 30.0.2
+* Android SDK version 30 (API 30: Android 11.0 (R))
+
+* Build Tool Version 30.0.2
  
-- Android Gradle Plugin Version 4.0.1
+* Android Gradle Plugin Version 4.0.1
 
-- Gradle Version 6.1.1
+* Gradle Version 6.1.1
+
+* To access the UI overlay attack source code, clone this repository using the following command:
+  ```bash
+  git clone https://github.com/Android-SecLab/UI-overlay-attack.git
+  ```
+  
+* To build the UI overlay attack app, simply import and run build project 'Privacy-Indicator-App-master' in Android Studio.
