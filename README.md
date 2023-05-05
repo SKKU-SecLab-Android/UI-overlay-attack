@@ -42,8 +42,6 @@ We confirmed that UI overlay attack app build runs on a 64-bit Windows 11 system
 
 - The default target device currently set is Pixel 6, and if you want to perform a UI overlay attack on a different device, you need to modify the image source in the XML file located at the following path. (../app/src/main/res/layout/indicators_layout.xml)
 
-- The image source should be placed in '..\app\src\main\res\drawable' directory. Currently, the app supports two image files for UI overlay attack (Pixel 3 and Pixel 6)
-
             <ImageView
                 android:id="@+id/iv_cam"
                 android:layout_width="match_parent"
@@ -55,6 +53,8 @@ We confirmed that UI overlay attack app build runs on a 64-bit Windows 11 system
                 android:src="@drawable/pixel6"  <! -- Here is the replacable image source of deceptive status bar for other models, default is pixel6 -->
                 android:visibility="visible"
                 tools:ignore="UseAppTint" />
+
+- The image source should be placed in '..\app\src\main\res\drawable' directory. Currently, the app supports two image files for UI overlay attack (Pixel 3 and Pixel 6)
 
 ---
 <br>
