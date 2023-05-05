@@ -63,3 +63,5 @@ We confirmed that UI overlay attack app build runs on a 64-bit Windows 11 system
 
 * We conducted a user study with 44 participants to assess Android privacy indicator awareness in the presence of UI overlay attacks; only 13.6\% of participants recognized the indicator when subjected to UI overlay attacks, while 63.6\% recognized the indicator in the default Android 12 settings
 
+![UI overlay attack user study](https://github.com/Android-SecLab/UI-overlay-attack/blob/main/UI_overlay_attack_user_study.png)
+
